@@ -1,0 +1,25 @@
+.pagination {
+  margin: 20px 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.el-dialog {
+  min-width: 500px;
+}
+
+.el-button span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.el-overlay {
+  overflow-x: scroll;
+}
+
+.el-dialog__title {
+  font-size: 15px;
+  font-weight: 500;
+}
+

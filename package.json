@@ -1,0 +1,42 @@
+{
+  "name": "admin-system",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve --open",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "createPage": "node src/template/createApi.js&&node src/template/createView.js&&npm run serve"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "blueimp-md5": "^2.18.0",
+    "element-plus": "^1.0.1-beta.24",
+    "lodash": "^4.17.20",
+    "normalize.css": "^8.0.1",
+    "vue": "^3.0.5",
+    "vue-router": "^4.0.0-0",
+    "vuex": "^4.0.0-0"
+  },
+  "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/blueimp-md5": "^2.7.0",
+    "@types/lodash": "^4.14.165",
+    "@typescript-eslint/eslint-plugin": "^2.33.0",
+    "@typescript-eslint/parser": "^2.33.0",
+    "@vue/babel-helper-vue-jsx-merge-props": "^1.2.1",
+    "@vue/babel-preset-jsx": "^1.2.4",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-plugin-router": "~4.5.0",
+    "@vue/cli-plugin-typescript": "~4.5.0",
+    "@vue/cli-plugin-vuex": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/compiler-sfc": "^3.0.0",
+    "@vue/eslint-config-typescript": "^5.0.2",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^7.0.0-0",
+    "sass": "^1.26.5",
+    "sass-loader": "^8.0.2",
+    "typescript": "~3.9.3"
+  }
+}
